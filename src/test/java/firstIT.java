@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 public class firstIT {
     @Test public void testSomeLibraryMethod() {
         Library classUnderTest = new Library();
-        //assertTrue(true);
-		assertFalse(true);
+        assertTrue(true);
+		//assertFalse(true);
     }
 }
