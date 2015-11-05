@@ -36,3 +36,5 @@ test {
 task integrationTest(type: Test, dependsOn: "test") << {
 	include '**/*IT.*'
 }
+
+check.dependsOn integrationTest
